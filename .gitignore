@@ -1,0 +1,21 @@
+# Scweet state DB (contains auth tokens + rate limit state)
+scweet_state.db
+scweet_state.db-shm
+scweet_state.db-wal
+
+# Scraper run state
+scraper_state.json
+
+# Scraped data (can be large; regenerate with run.py)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Env files
+.env
+*.env
