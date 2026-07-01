@@ -6,8 +6,9 @@ scweet_state.db-wal
 # Scraper run state
 scraper_state.json
 
-# Scraped data (can be large; regenerate with run.py)
-data/
+# Scraped data — track the combined output, ignore per-ticker files
+data/*
+!data/mn_finance.csv
 
 # Python
 __pycache__/
